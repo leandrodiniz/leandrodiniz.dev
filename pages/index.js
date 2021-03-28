@@ -22,10 +22,11 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://use.typekit.net/idu6hdx.css"></link>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <section>
-          <img src="/leandro-diniz.png"  width="150" className={styles.imgProfile}/>
+          <img src="/leandro-diniz.png" alt="Leandro's profile image" width="150" className={styles.imgProfile}/>
           <h1 className={styles.title}>Leandro Diniz</h1>
           <div className={styles.description}>
             <p>I am a Software Engineer who specializes in UI development for web application products.</p>
