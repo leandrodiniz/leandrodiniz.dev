@@ -1,26 +1,29 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+
 export default function Home() {
+  console.log(`%c Exu matou um pássaro ontem, com uma pedra que só jogou hoje...`, 'background: #fdda4b; color: #333')
+  console.log(`🌿 💛`);
   return (
     <div className={styles.container}>
       <Head>
-        <title>&lrm;</title>
+        <title>Leandro Diniz 🌿 💛</title>
         <meta charset="utf-8" />
-        <meta content="Leandro Diniz is a Software Engineer a software engineer who specializes in UI development for web application products." name="description" />
+        <meta content="Leandro Diniz is a Software Engineer who specializes in UI development for web application products." name="description" />
         <meta content="https://leandrodiniz.dev" name="url" />
         <meta content="Leandro Diniz" name="title" />
         <meta content="unico, Acesso Digital, Leandro Diniz, Diniz, rxjs, angular, accessibility, typescript, ngrx, css, design, developer, es2015, es6, awwwards, idtech, functional programming, pwa, javascript, js, leadership, a11y, tech, technical leadership, frontend, ui developer, ux" name="keywords" />
         <meta content="width=device-width,initial-scale=1" name="viewport" />
-        <meta content="Leandro Diniz is a Software Engineer a software engineer who specializes in UI development for web application products." name="twitter:description" />
+        <meta content="Leandro Diniz is a Software Engineer who specializes in UI development for web application products." name="twitter:description" />
         <meta content="Leandro Diniz"name="twitter:title" />
         <meta content="@leandro_diniz" name="twitter:site" />
-        <meta content="Leandro Diniz is a Software Engineer a software engineer who specializes in UI development for web application products." property="og:description" />
+        <meta content="Leandro Diniz is a Software Engineer who specializes in UI development for web application products." property="og:description" />
         <meta content="Leandro Diniz"property="og:title" />
         <meta content="en_US" property="og:locale" />
-        <meta content="Leandro Diniz is a Software Engineer a software engineer who specializes in UI development for web application products." name="twitter:description" />
+        <meta content="Leandro Diniz is a Software Engineer who specializes in UI development for web application products." name="twitter:description" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet"></link>
         <link rel="stylesheet" href="https://use.typekit.net/idu6hdx.css"></link>
         <link rel="icon" href="/favicon.ico" />
       </Head>
